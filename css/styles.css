@@ -1,0 +1,148 @@
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  margin: 50 auto 0 auto;
+  font-size: 5.625rem; /* Same as 90px divided by 16px becaause 100% = 16px*/
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+
+}
+
+h2{
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  padding-bottom: 10px;
+
+}
+
+
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+
+hr{
+  background: inherit;
+  border: dotted black 5px;
+  border-bottom: none; /* This will take away the bottom dotted line so that there will only be one showing */
+  width: 5%;
+  margin: 100px auto; /* This will make space on top and bottom of 100px and then make it centered by putting auo, the clockwise system */
+}
+
+p{
+  line-height: 2; /* This will change the heigh betwewen the text for all the paragraph elements */
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px; /* This would space out the footer links a little so they are not so close together */
+  text-decoration: none; /* This will take away the underline that shows on anchor tags */
+}
+
+a:hover{      /* This will cause the color to change when you hover over it */
+  color: #EAF6F6;
+}
+
+.top-container{
+  background-color: #8ac4d0;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.middle-container{
+  margin: 100px 0; /* This creates some space between the top and bottom where the profile and last skill is */
+
+}
+
+.bottom-container{
+  background-color: #8ac4d0;
+  color: #11999E;
+  padding-bottom: 25px;
+  padding-top: 25px;
+
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+  }
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.profile-img{
+  width: 300px;
+}
+
+.skill-row{
+
+width: 50%;
+margin: 100px auto 100px auto; /* this will center it, with a margin space of 100 on top and bottom */
+text-align: left; /* This will make the text be aligned left */
+
+}
+
+.graphic-img{
+  width: 25%;
+  float:left; /* This will make the picture go to the right or left side of the text so it wraps around the text */
+  margin-right: 30px; /* This will create some space between the picture and text so they not so close together */
+}
+
+.photography-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-button {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 10px;
+   background-color: #8AC4D0;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+
+   border: solid #000000 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+.contact-button:hover {
+   background: black;
+   border: solid #000000 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+
+.copyright-text{
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
