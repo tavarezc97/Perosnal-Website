@@ -1,6 +1,6 @@
 # Perosnal-Website
 
-https://tavarezc97.github.io/Perosnal-Website/
+Website link: https://tavarezc97.github.io/Perosnal-Website/
 
 You can find HTML and CSS files to my Personal Website.
 
